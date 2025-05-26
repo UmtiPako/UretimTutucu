@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\umutp\\source\\repos\\UretimTutucu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB362793-C113-44E8-8D92-FFB32E708B70}|UretimTutucu\\UretimTutucu.csproj|c:\\users\\umutp\\source\\repos\\uretimtutucu\\uretimtutucu\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB362793-C113-44E8-8D92-FFB32E708B70}|UretimTutucu\\UretimTutucu.csproj|solutionrelative:uretimtutucu\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB362793-C113-44E8-8D92-FFB32E708B70}|UretimTutucu\\UretimTutucu.csproj|c:\\users\\umutp\\source\\repos\\uretimtutucu\\uretimtutucu\\models\\fabrikakayitlari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB362793-C113-44E8-8D92-FFB32E708B70}|UretimTutucu\\UretimTutucu.csproj|solutionrelative:uretimtutucu\\models\\fabrikakayitlari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB362793-C113-44E8-8D92-FFB32E708B70}|UretimTutucu\\UretimTutucu.csproj|c:\\users\\umutp\\source\\repos\\uretimtutucu\\uretimtutucu\\models\\standartdurus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB362793-C113-44E8-8D92-FFB32E708B70}|UretimTutucu\\UretimTutucu.csproj|solutionrelative:uretimtutucu\\models\\standartdurus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB362793-C113-44E8-8D92-FFB32E708B70}|UretimTutucu\\UretimTutucu.csproj|c:\\users\\umutp\\source\\repos\\uretimtutucu\\uretimtutucu\\models\\operasyonbildirimi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB362793-C113-44E8-8D92-FFB32E708B70}|UretimTutucu\\UretimTutucu.csproj|solutionrelative:uretimtutucu\\models\\operasyonbildirimi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB362793-C113-44E8-8D92-FFB32E708B70}|UretimTutucu\\UretimTutucu.csproj|c:\\users\\umutp\\source\\repos\\uretimtutucu\\uretimtutucu\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB362793-C113-44E8-8D92-FFB32E708B70}|UretimTutucu\\UretimTutucu.csproj|solutionrelative:uretimtutucu\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB362793-C113-44E8-8D92-FFB32E708B70}|UretimTutucu\\UretimTutucu.csproj|c:\\users\\umutp\\source\\repos\\uretimtutucu\\uretimtutucu\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB362793-C113-44E8-8D92-FFB32E708B70}|UretimTutucu\\UretimTutucu.csproj|solutionrelative:uretimtutucu\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB362793-C113-44E8-8D92-FFB32E708B70}|UretimTutucu\\UretimTutucu.csproj|c:\\users\\umutp\\source\\repos\\uretimtutucu\\uretimtutucu\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB362793-C113-44E8-8D92-FFB32E708B70}|UretimTutucu\\UretimTutucu.csproj|solutionrelative:uretimtutucu\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FabrikaKayitlari.cs",
+              "DocumentMoniker": "C:\\Users\\umutp\\source\\repos\\UretimTutucu\\UretimTutucu\\Models\\FabrikaKayitlari.cs",
+              "RelativeDocumentMoniker": "UretimTutucu\\Models\\FabrikaKayitlari.cs",
+              "ToolTip": "C:\\Users\\umutp\\source\\repos\\UretimTutucu\\UretimTutucu\\Models\\FabrikaKayitlari.cs",
+              "RelativeToolTip": "UretimTutucu\\Models\\FabrikaKayitlari.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAmwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T20:08:00.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StandartDurus.cs",
+              "DocumentMoniker": "C:\\Users\\umutp\\source\\repos\\UretimTutucu\\UretimTutucu\\Models\\StandartDurus.cs",
+              "RelativeDocumentMoniker": "UretimTutucu\\Models\\StandartDurus.cs",
+              "ToolTip": "C:\\Users\\umutp\\source\\repos\\UretimTutucu\\UretimTutucu\\Models\\StandartDurus.cs",
+              "RelativeToolTip": "UretimTutucu\\Models\\StandartDurus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T19:52:34.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\umutp\\source\\repos\\UretimTutucu\\UretimTutucu\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "UretimTutucu\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\umutp\\source\\repos\\UretimTutucu\\UretimTutucu\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "UretimTutucu\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-23T19:50:49.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\umutp\\source\\repos\\UretimTutucu\\UretimTutucu\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "UretimTutucu\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\umutp\\source\\repos\\UretimTutucu\\UretimTutucu\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "UretimTutucu\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-23T20:25:23.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\umutp\\source\\repos\\UretimTutucu\\UretimTutucu\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "UretimTutucu\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\umutp\\source\\repos\\UretimTutucu\\UretimTutucu\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "UretimTutucu\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-23T20:25:23.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\umutp\\source\\repos\\UretimTutucu\\UretimTutucu\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UretimTutucu\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\umutp\\source\\repos\\UretimTutucu\\UretimTutucu\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UretimTutucu\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T19:48:35.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OperasyonBildirimi.cs",
+              "DocumentMoniker": "C:\\Users\\umutp\\source\\repos\\UretimTutucu\\UretimTutucu\\Models\\OperasyonBildirimi.cs",
+              "RelativeDocumentMoniker": "UretimTutucu\\Models\\OperasyonBildirimi.cs",
+              "ToolTip": "C:\\Users\\umutp\\source\\repos\\UretimTutucu\\UretimTutucu\\Models\\OperasyonBildirimi.cs",
+              "RelativeToolTip": "UretimTutucu\\Models\\OperasyonBildirimi.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA/wB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T19:55:06.201Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+﻿@model FabrikaKayitlari 
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h3>İŞÇİLERİN TUTTUĞU KAYITLAR</h3>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-light">
+        <tr>
+            <th scope="col">Kayıt No</th>
+            <th scope="col">Başlangıç</th>
+            <th scope="col">Bitiş</th>
+            <th scope="col">Toplam Süre (Saat)</th>
+            <th scope="col">Statü</th>
+            <th scope="col">Duruş Nedeni</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (int i = 0; i < Model.operasyonKayitlari.Count; i++)
+        {
+            <tr>
+                <td>@Model.operasyonKayitlari[i].kayitNo</td>
+                <td>@Model.operasyonKayitlari[i].operasyonBaslangic.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>@Model.operasyonKayitlari[i].operasyonBitis.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>@Model.operasyonKayitlari[i].toplamSure_saat.ToString(@"hh\:mm")</td>
+                <td>@Model.operasyonKayitlari[i].statu</td>
+                <td>@Model.operasyonKayitlari[i].durusNedeni</td>
+            </tr>
+        }
+
+        }
+    </tbody>
+</table>
+
+<h3>STANDART DURUŞLAR</h3>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-light">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Başlangıç</th>
+            <th scope="col">Bitiş</th>
+            <th scope="col">Duruş Nedeni</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (int i = 0; i < Model.standartDuruslar.Count; i++)
+        {
+            <tr>
+                <td>@(i + 1)</td>
+                <td>@Model.standartDuruslar[i].durusBaslangic.ToString(@"hh\:mm")</td>
+                <td>@Model.standartDuruslar[i].durusBitis.ToString(@"hh\:mm")</td>
+                <td>@Model.standartDuruslar[i].durusNedeni</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3>İŞLENEN KAYITLAR</h3>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-light">
+        <tr>
+            <th scope="col">Kayıt No</th>
+            <th scope="col">Başlangıç</th>
+            <th scope="col">Bitiş</th>
+            <th scope="col">Toplam Süre (Saat)</th>
+            <th scope="col">Statü</th>
+            <th scope="col">Duruş Nedeni</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (int i = 0; i < Model.hesaplananKayitlar.Count; i++)
+        {
+            <tr>
+                <td>@Model.hesaplananKayitlar[i].kayitNo</td>
+                <td>@Model.hesaplananKayitlar[i].operasyonBaslangic.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>@Model.hesaplananKayitlar[i].operasyonBitis.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>@Model.hesaplananKayitlar[i].toplamSure_saat.ToString(@"hh\:mm")</td>
+                <td>@Model.hesaplananKayitlar[i].statu</td>
+                <td>@Model.hesaplananKayitlar[i].durusNedeni</td>
+            </tr>
+        }
+
+        }
+    </tbody>
+</table>
+
