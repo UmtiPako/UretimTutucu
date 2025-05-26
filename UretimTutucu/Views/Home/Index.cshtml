@@ -29,8 +29,6 @@
                 <td>@Model.operasyonKayitlari[i].durusNedeni</td>
             </tr>
         }
-
-        }
     </tbody>
 </table>
 
@@ -57,34 +55,25 @@
         }
     </tbody>
 </table>
-
+<br />
+    <button onclick="islenecekKayitlariGoster()" class="btn btn-primary">İşlenecek Kayıtları Hesapla</button>
+<br />
+<br />
 <h3>İŞLENEN KAYITLAR</h3>
 
-<table class="table table-bordered table-striped">
-    <thead class="table-light">
-        <tr>
-            <th scope="col">Kayıt No</th>
-            <th scope="col">Başlangıç</th>
-            <th scope="col">Bitiş</th>
-            <th scope="col">Toplam Süre (Saat)</th>
-            <th scope="col">Statü</th>
-            <th scope="col">Duruş Nedeni</th>
-        </tr>
-    </thead>
-    <tbody>
-        @for (int i = 0; i < Model.hesaplananKayitlar.Count; i++)
-        {
-            <tr>
-                <td>@Model.hesaplananKayitlar[i].kayitNo</td>
-                <td>@Model.hesaplananKayitlar[i].operasyonBaslangic.ToString("dd.MM.yyyy HH:mm")</td>
-                <td>@Model.hesaplananKayitlar[i].operasyonBitis.ToString("dd.MM.yyyy HH:mm")</td>
-                <td>@Model.hesaplananKayitlar[i].toplamSure_saat.ToString(@"hh\:mm")</td>
-                <td>@Model.hesaplananKayitlar[i].statu</td>
-                <td>@Model.hesaplananKayitlar[i].durusNedeni</td>
-            </tr>
-        }
+<div id="tabloAlani">
 
-        }
-    </tbody>
-</table>
+</div>
 
+
+<script>
+        function islenecekKayitlariGoster() {
+            fetch('/Home/Hesapla', {
+                method: 'POST'
+            })
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('tabloAlani').innerHTML = html;
+            });
+        }
+</script>

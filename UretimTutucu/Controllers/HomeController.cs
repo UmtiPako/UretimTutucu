@@ -25,6 +25,14 @@ namespace UretimTutucu.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult Hesapla()
+        {
+            var model = new FabrikaKayitlari();
+            model.hesaplananKayitlar = model.KayitlariHesapla();
+            return PartialView("_HesaplananTablo", model); 
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

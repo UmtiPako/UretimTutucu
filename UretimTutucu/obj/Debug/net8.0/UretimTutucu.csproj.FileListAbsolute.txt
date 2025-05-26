@@ -32,3 +32,4 @@ C:\Users\umutp\source\repos\UretimTutucu\UretimTutucu\obj\Debug\net8.0\refint\Ur
 C:\Users\umutp\source\repos\UretimTutucu\UretimTutucu\obj\Debug\net8.0\UretimTutucu.pdb
 C:\Users\umutp\source\repos\UretimTutucu\UretimTutucu\obj\Debug\net8.0\UretimTutucu.genruntimeconfig.cache
 C:\Users\umutp\source\repos\UretimTutucu\UretimTutucu\obj\Debug\net8.0\ref\UretimTutucu.dll
+C:\Users\umutp\source\repos\UretimTutucu\UretimTutucu\obj\Debug\net8.0\UretimTutucu.sourcelink.json

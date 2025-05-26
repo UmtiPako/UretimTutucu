@@ -4,7 +4,7 @@
     {
         public List<OperasyonBildirimi> operasyonKayitlari { get; }
         public List<StandartDurus> standartDuruslar { get; }
-        public List<OperasyonBildirimi> hesaplananKayitlar { get; }
+        public List<OperasyonBildirimi> hesaplananKayitlar { get; set; }
 
         public FabrikaKayitlari()
         {
@@ -43,11 +43,9 @@
             new StandartDurus(new TimeOnly(12, 0), new TimeOnly(12, 30), "Yemek Molası"),
             new StandartDurus(new TimeOnly(15, 0), new TimeOnly(15, 15), "Çay Molası")
             };
-
-            hesaplananKayitlar = KayitlariHesapla();
         }
 
-        private List<OperasyonBildirimi> KayitlariHesapla()
+        public List<OperasyonBildirimi> KayitlariHesapla()
         {
             var hesaplananKayitlar = new List<OperasyonBildirimi>(); // Yeni tabloya koyulacak hesaplanan kayıtları koymak için listemizi oluşturuyoruz
             var durusAraliklari = new HashSet<(DateTime, DateTime)>(); // Duruş aralıklarını kontrol edeceğiz, kayıtlar üzerinden sorgulamak daha yorucu olacağından hashset oluşturuyoruz
